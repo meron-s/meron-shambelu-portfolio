@@ -90,7 +90,7 @@ export const portfolioData: PortfolioData = {
       name: "DBU Software Engineering GPA Portal",
       description: "A specialized, professional academic audit and grade simulation tool pre-configured with the Debre Berhan University Software Engineering curriculum (Year 2 to 5).",
       longDescription: "Engineered specifically for fellow software engineering students, this portal provides a clean overview of academic standards. It lists all curriculum courses from Year 2 to Year 5, letting students input grades, calculate dynamic SGPA, simulate target cumulative standings (CGPA), track total credit achievements, and see their performance trends visually over time via charts.",
-      image: "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1551286751-e9125d820049?q=80&w=800&auto=format&fit=crop",
       techs: ["React 19", "TypeScript", "Tailwind CSS v4", "Recharts", "Motion", "Context API"],
       features: [
         "DBU Software Engineering Curriculum: Instantly loaded with courses, credits, and prerequisites.",

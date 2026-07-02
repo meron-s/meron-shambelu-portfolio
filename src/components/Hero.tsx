@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { ArrowRight, Download, Mail, Github, Linkedin, MessageSquare } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { portfolioData } from "../data/portfolioData";
-import profilePic from "../assets/images/meron_profile.png";
 
 interface HeroProps {
   onScrollToSection: (sectionId: string) => void;
@@ -219,8 +218,8 @@ PROJECTS
             <div className="absolute inset-2 rounded-full overflow-hidden border border-slate-800 bg-slate-950">
               <img
                 id="hero-profile-avatar-img"
-                src={profilePic}
-                alt="Meron Shambelu"
+                src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=800&auto=format&fit=crop"
+                alt="Meron Shambelu - Software Engineer"
                 className="w-full h-full object-cover grayscale-[10%] hover:grayscale-0 hover:scale-105 transition-all duration-500"
                 referrerPolicy="no-referrer"
               />

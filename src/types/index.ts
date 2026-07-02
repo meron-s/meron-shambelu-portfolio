@@ -87,6 +87,7 @@ export interface PortfolioData {
   subTitle: string;
   aboutText: string;
   careerObjective: string;
+  profileImage: string;
   values: string[];
   learningJourney: { year: string; title: string; desc: string }[];
   skills: SkillCategory[];

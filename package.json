@@ -1,7 +1,13 @@
 {
-  "name": "react-example",
+  "name": "meron-shambelu-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Professional software engineering portfolio showcasing full-stack web applications, academic tools, and modern UI/UX design systems. Built with React, TypeScript, and Tailwind CSS.",
+  "author": "Meron Shambelu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meron-s/meron-shambelu-portfolio"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",

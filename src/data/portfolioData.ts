@@ -8,6 +8,7 @@ export const portfolioData: PortfolioData = {
   subTitle: "Building elegant solutions to complex problems with modern technology",
   aboutText: "I am a passionate, detail-oriented Software Engineering student at Debre Berhan University and an ambitious Full-Stack Web Developer based in Addis Ababa, Ethiopia. I thrive on crafting premium digital experiences that seamlessly combine high-fidelity user interfaces with secure, efficient, and well-structured backend systems. With a strong foundation in computer science principles and a continuous learning mindset, I aim to build software that creates real-world impact.",
   careerObjective: "Seeking an internship or junior software engineer opportunity where I can apply my full-stack development skills, collaborate with seasoned professionals, and contribute to building highly polished, high-performance web applications while continuing to expand my knowledge of modern system architectures.",
+  profileImage: "/profile.png",
   values: [
     "Clean, Readable, and Modular Code",
     "Empathetic, User-Centric Design (UI/UX)",

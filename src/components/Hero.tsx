@@ -11,7 +11,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
-  const words = ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "JavaScript", "C++"];
+  const words = ["React", "TypeScript", "Node.js", "Express.js", "Python", "MongoDB", "JavaScript", "C++"];
   const typingSpeed = 100;
   const deletingSpeed = 60;
   const wordPause = 1500;
@@ -218,7 +218,7 @@ PROJECTS
             <div className="absolute inset-2 rounded-full overflow-hidden border border-slate-800 bg-slate-950">
               <img
                 id="hero-profile-avatar-img"
-                src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=800&auto=format&fit=crop"
+                src={portfolioData.profileImage || "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=800&auto=format&fit=crop"}
                 alt="Meron Shambelu - Software Engineer"
                 className="w-full h-full object-cover grayscale-[10%] hover:grayscale-0 hover:scale-105 transition-all duration-500"
                 referrerPolicy="no-referrer"
